@@ -1,17 +1,16 @@
-@import "http://fonts.googleapis.com/css?family=Lobster"
-.img-border {
+@import "http://fonts.googleapis.com/css?family=Lobster" .img-border {
     border-color: white;
     border-width: 1px;
     border-style: solid;
     border-radius: 0px;
 }
 
-.twitter-timeline{
-      background-color: #546e7a;
+.twitter-timeline {
+    background-color: #546e7a;
 }
 
 .left-spacer {
-    margin-left:10px;
+    margin-left: 10px;
 }
 
 .top-content {
@@ -21,27 +20,109 @@
 .footer-style {
     background-color: #26a69a;
 }
-      
+
 .card-padding {
-    margin-top:20px;
-    
+    margin-top: 20px;
 }
 
 h2 {
-  font-family: Lobster;
-  /* color: #DF607D8; 
-  margin-left: 350px;
-  font-size: 50px*/
-  text-shadow: 0px 2px 1px #777 , 0px -4px 2px #000;
-  color: #222;
-  font-size: 50px;
-  font-family: 'Lobster', cursive;
+    font-family: Lobster;
+    /* color: #DF607D8; 
+    margin-left: 350px;
+    font-size: 50px */
+    margin-top: 0px;
+    margin-left: 100px;
+    text-shadow: 0px 2px 5px #222;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
 }
- 
+
 h4 {
-  font-family: Lobster;
-  color: #DF607D8;
-  margin-left: 350px;
-  font-size: 30px
+    font-family: Lobster;
+    color: #DF607D8;
+    margin-left: 100px;
+    font-size: 20px
 }
- 
+
+
+/* nanoMyke's Custom Button Plugin Starts Here 
+       http://codepen.io/nanoMyke/full/qZPBOa/     */
+
+.circle-bg {
+    background-color: #FF3F80;
+    border-radius: 50%;
+    cursor: pointer;
+    display: table;
+    left: 50%;
+    top: 50%;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    vertical-align: middle;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.icon {
+    color: white;
+    display: table-cell;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.outer-icons {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.outer-icons i {
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.one {
+    background-color: #55acee;
+    left: -120px;
+}
+
+.two {
+    background-color: #3b5998;
+    left: -60px;
+    bottom: -150px;
+}
+
+.three {
+    background-color: #dc4e41;
+    left: 60px;
+    bottom: -150px;
+}
+
+.four {
+    background-color: #0077b5;
+    left: 120px;
+}
+
+
+/* nanoMyke's Custom Button Plugin Ends Here 
+       http://codepen.io/nanoMyke/full/qZPBOa/   */
